@@ -12,7 +12,18 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
-    "standard"  
+    "standard",
+    "plugin:tailwindcss/recommended",
+    "prettier",  
+    // Custom ignores:
+    ".next/**",
+    "out/**",
+    "build/**",
+    "next-env.d.ts",
+    "standard",
+    "plugin:tailwindcss/recommended",
+    "prettier",
+
   ]),
 ]);
 
